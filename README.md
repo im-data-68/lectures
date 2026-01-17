@@ -2,7 +2,7 @@
 
 ## Resources
 
-- [Lecture VDO](#)
+- [Lecture VDO](https://www.youtube.com/playlist?list=PLNGLpHQhvGrtOFA-AqjOALkWcTPMt5d4I)
 - Python Installation
   - [Windows](https://github.com/im-data-68/lectures/blob/main/src/T00%20-%20Python%20Installation/windows.md)
   - [MacOS](https://github.com/im-data-68/lectures/blob/main/src/T00%20-%20Python%20Installation/mac.md)
