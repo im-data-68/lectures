@@ -28,7 +28,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 - Activate the environment
   - `source ~/.venv/bin/activate`
 - Install packages
-  - `uv pip install jupyterlab ipykernel pandas scikit-learn matplotlib seaborn openpyxl ruff notebook xlsxwriter`
+  - `uv pip install jupyterlab ipykernel pandas matplotlib seaborn openpyxl ruff notebook xlsxwriter`
 
 # VSCode
 

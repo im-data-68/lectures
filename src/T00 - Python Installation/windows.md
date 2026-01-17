@@ -6,7 +6,6 @@
 
 - Open `PowerShell` with administrative right
 - If you use Win 32
-
   - `New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force`
 
 - `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine`
@@ -26,7 +25,7 @@
 - Activate the environment
   - `~/.venv/Scripts/activate.ps1`
 - Install packages
-  - `uv pip install jupyterlab ipykernel pandas scikit-learn matplotlib seaborn openpyxl ruff notebook xlsxwriter`
+  - `uv pip install jupyterlab ipykernel pandas matplotlib seaborn openpyxl ruff notebook xlsxwriter`
 
 # 5. Install VSCode
 
@@ -35,7 +34,6 @@
 # 6. Setup VSCode for Python
 
 - Install VSCode extensions
-
   - Python
   - Python Environments
   - Python Indent
