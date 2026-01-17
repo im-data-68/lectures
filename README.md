@@ -4,7 +4,9 @@
 
 - [Lecture VDO](#)
 - Python Installation
-  - [Windows](#)
-  - [MacOS](#)
+  - [Windows](https://github.com/im-data-68/lectures/blob/main/src/T00%20-%20Python%20Installation/windows.md)
+  - [MacOS](https://github.com/im-data-68/lectures/blob/main/src/T00%20-%20Python%20Installation/mac.md)
 
 ## Basic Python
+
+- [Code](https://github.com/im-data-68/lectures/tree/main/src/T01_basic_python_part_1/files)
