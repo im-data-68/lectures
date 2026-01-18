@@ -6,33 +6,46 @@
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-- Copy the command printed after the installation. It should look like this
+## 2. Add `brew` to your PATH
 
-```bash
-echo >> /Users/[Your User Name]/.zprofile
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/icemacbook/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
-```
+Check the location of `brew`
 
-## 2. Install `uv`
+- `eval "$(/opt/homebrew/bin/brew shellenv)"`
+  - If no error, use `echo 'eval "$(/opt/homebrew/bin/brew)"' >> $HOME/.zprofile`
+
+- `eval "$(/usr/local/bin/brew shellenv)"`
+  - If no error, use `echo 'eval "$(/usr/local/bin/brew)"' >> $HOME/.zprofile`
+
+Restart terminal and check `brew` command works.
+
+## 3. Install `uv`
 
 - `brew install uv`
 
-## 3. Install Python
+## 4. Install Python
 
 - `uv python install 3.12`
+- If you see permission error,
+  - `sudo uv python install 3.12`
 
-## 4. Create a virtual environment
+If you see warning about PATH,
+
+```
+echo 'export PATH="$PATH:/your/new/path"' >> ~/.zprofile
+```
+
+## 5. Create a virtual environment
 
 - `uv venv --python 3.12`
 - Activate the environment
   - `source ~/.venv/bin/activate`
 - Install packages
-  - `uv pip install jupyterlab ipykernel pandas matplotlib seaborn openpyxl ruff notebook xlsxwriter`
+  - `uv pip install jupyterlab ipykernel pandas scikit-learn matplotlib seaborn openpyxl ruff notebook xlsxwriter`
 
-# VSCode
+## 6. VSCode
 
 - Install `VSCode`
+  - `brew install --cask visual-studio-code`
 - Install VSCode extensions
   - Python
   - Python Environments
@@ -43,7 +56,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
   - `python.venvPath` -> `~`
   - `editor.formatOnSave` -> ✔️
 
-# Run python file
+## 7. Run python file
 
 - Create `hello.py`
 
@@ -58,7 +71,7 @@ print(print(pd.__version__))
 - Run file from the play button.
 - (Optionally) select formatter
 
-# Run Jupyter notebook
+## 8. Run Jupyter notebook
 
 - Create `hello.ipynb`
 - Click `Select Kernel` at the top right.
