@@ -14,4 +14,4 @@
 
 # Basic Python (Part 2)
 
-- [Code]https://github.com/im-data-68/lectures/tree/main/src/T02_basic_python_part_2/files)
+- [Code](https://github.com/im-data-68/lectures/tree/main/src/T02_basic_python_part_2/files)
