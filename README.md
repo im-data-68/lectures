@@ -12,10 +12,10 @@
 
 - [Code](https://github.com/im-data-68/lectures/tree/main/src/T01_basic_python_part_1/files)
 
-# Basic Python (Part 2)
+## Basic Python (Part 2)
 
 - [Code](https://github.com/im-data-68/lectures/tree/main/src/T02_basic_python_part_2/files)
 
-# Data Processing with Pandas
+## Data Processing with Pandas
 
 - [Code](https://github.com/im-data-68/lectures/tree/main/src/T03_data_processing_pandas/files)
