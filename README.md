@@ -37,6 +37,6 @@ os.chdir('/content/drive/MyDrive/Colab Notebooks')
 
 - [Code](https://github.com/im-data-68/lectures/tree/main/src/T03_data_processing_pandas/files)
 
-## Date Processing Examples
+## Data Processing Examples
 
 - [Code](https://github.com/im-data-68/lectures/tree/main/src/T04_pandas_examples/files)
