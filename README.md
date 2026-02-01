@@ -40,3 +40,7 @@ os.chdir('/content/drive/MyDrive/Colab Notebooks')
 ## Data Processing Examples
 
 - [Code](https://github.com/im-data-68/lectures/tree/main/src/T04_pandas_examples/files)
+
+## Data Visualization
+
+- [Code](https://github.com/im-data-68/lectures/tree/main/src/T05_data_visualization/files)
