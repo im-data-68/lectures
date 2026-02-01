@@ -44,3 +44,7 @@ os.chdir('/content/drive/MyDrive/Colab Notebooks')
 ## Data Visualization
 
 - [Code](https://github.com/im-data-68/lectures/tree/main/src/T05_data_visualization/files)
+
+## Looker Studio
+
+- [Code](https://github.com/im-data-68/lectures/tree/main/src/T06_looker_studio/files)
