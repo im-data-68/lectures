@@ -51,4 +51,4 @@ os.chdir('/content/drive/MyDrive/Colab Notebooks')
 
 ## Project Assignment
 
-- [Details](#)
+- [Details](https://github.com/im-data-68/lectures/blob/main/src/T99_project/instruction.md)
